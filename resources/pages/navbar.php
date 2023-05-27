@@ -16,7 +16,7 @@
     </div>
 </form> -->
 <div class="form-inline ml-2 mt-2">
-    <span class="h5">Student Management App</span>
+    <span class="h5">App Pengurusan Pelajar</span>
 </div>
 
 <ul class="navbar-nav ml-auto">
