@@ -1,0 +1,17 @@
+Jenis Bayaran:
+
+Yuran Sekolah           YSK
+Yuran Peperiksaan       YPP
+Bayaran Buku            BBK
+Bayaran Baju Lencana    BBL
+Bayaran Alat Tulis      BAT
+
+
+No Receipt: 
+
+    SAM|YSK|23|XXXX1
+
+SAM - Sekolah Al-Muttaqin
+YSK - Jenis Bayaran 
+23 - Tahun 
+XXXX1 - Running Number

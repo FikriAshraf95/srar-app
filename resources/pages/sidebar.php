@@ -12,7 +12,7 @@ $current_url = $_SERVER['REQUEST_URI'];
         <div class="col-xs-12 mt-2">
             <img src="./resources/dist/img/avatar.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
             style="opacity: .8">
-            <span class="brand-text font-weight-light">`USERNAME`</span>
+            <span class="brand-text font-weight-light">SRAR Al Muttaqin</span>
         </div>
     </div>
 </div>
@@ -25,22 +25,22 @@ $current_url = $_SERVER['REQUEST_URI'];
     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
         <li class="nav-item">
             <a href="./index.php" class="nav-link <?php echo($current_url == '/index.php' ? 'active' : ''); ?>">
-                <i class="fas fa-tachometer-alt"></i>
-                <p class="ml-2">Dashboard</p>
+            <i class="fa fa-home" aria-hidden="true"></i>
+                <p class="ml-2">Laman Utama</p>
             </a>
         </li>
-        <li class="nav-header">Students</li>
+        <li class="nav-header">Pelajar</li>
         <li class="nav-item">
-            <a href="./student.php" class="nav-link <?php if($current_url == '/student.php'){echo 'active';} ?>">
-                <i class="fas fa-tachometer-alt"></i>
-                <p class="ml-2">Students List</p>
+            <a href="./senaraiPelajar.php" class="nav-link <?php if($current_url == '/senaraiPelajar.php'){echo 'active';} ?>">
+            <i class="fa fa-list-alt" aria-hidden="true"></i>
+                <p class="ml-2">Senarai Pelajar</p>
             </a>
         </li>
-        <li class="nav-header">Settings</li>
+        <li class="nav-header">Lain-lain</li>
         <li class="nav-item">
             <a href="./user.php" class="nav-link <?php if($current_url == '/user.php'){echo 'active';} ?>">
-                <i class="fas fa-tachometer-alt"></i>
-                <p class="ml-2">User</p>
+            <i class="fa fa-file" aria-hidden="true"></i>
+                <p class="ml-2">Laporan</p>
             </a>
         </li>
         <li class="nav-item">
@@ -53,6 +53,12 @@ $current_url = $_SERVER['REQUEST_URI'];
         <a href="./parameter.php" class="nav-link <?php if($current_url == '/parameter.php'){echo 'active';} ?>">
                 <i class="fas fa-tachometer-alt"></i>
                 <p class="ml-2">GL Parameter</p>
+            </a>
+        </li>
+        <li class="nav-item">
+        <a href="./test.php" class="nav-link <?php if($current_url == '/test.php'){echo 'active';} ?>">
+                <i class="fas fa-tachometer-alt"></i>
+                <p class="ml-2">GL nfuewhf</p>
             </a>
         </li>
     </ul>
