@@ -153,7 +153,7 @@
                                                             <td>3 IBNU KATHIR</td>
                                                             <td>131023080067</td>
                                                             <td class="text-center">
-                                                                <a href="/maklumatPelajar.php?id=214"
+                                                                <a href="maklumatPelajar.php?id=214"
                                                                     class="btn btn-warning mx-2"><i
                                                                         class="fas fa-edit"></i></a>
                                                                 <a href="#modal-default" class="btn btn-danger mx-2"
@@ -167,7 +167,7 @@
                                                             <td>3 IBNU KATHIR</td>
                                                             <td>130314080142</td>
                                                             <td class="text-center">
-                                                                <a href="/studentinfo.php?id=215"
+                                                                <a href="./studentinfo.php.php?id=215"
                                                                     class="btn btn-warning mx-2"><i
                                                                         class="fas fa-edit"></i></a>
                                                                 <a href="#" class="btn btn-danger mx-2"><i
@@ -180,7 +180,7 @@
                                                             <td>3 IBNU KATHIR</td>
                                                             <td>130722030400</td>
                                                             <td class="text-center">
-                                                                <a href="/studentinfo.php?id=216"
+                                                                <a href="./studentinfo.php.php?id=216"
                                                                     class="btn btn-warning mx-2"><i
                                                                         class="fas fa-edit"></i></a>
                                                                 <a href="#" class="btn btn-danger mx-2"><i
@@ -193,7 +193,7 @@
                                                             <td>3 IBNU KATHIR</td>
                                                             <td>130606080304</td>
                                                             <td class="text-center">
-                                                                <a href="/studentinfo.php?id=217"
+                                                                <a href="./studentinfo.php.php?id=217"
                                                                     class="btn btn-warning mx-2"><i
                                                                         class="fas fa-edit"></i></a>
                                                                 <a href="#" class="btn btn-danger mx-2"><i
@@ -206,7 +206,7 @@
                                                             <td>3 IBNU KATHIR</td>
                                                             <td>130124100288</td>
                                                             <td class="text-center">
-                                                                <a href="/studentinfo.php?id=218"
+                                                                <a href="./studentinfo.php.php?id=218"
                                                                     class="btn btn-warning mx-2"><i
                                                                         class="fas fa-edit"></i></a>
                                                                 <a href="#" class="btn btn-danger mx-2"><i
@@ -219,7 +219,7 @@
                                                             <td>3 IBNU KATHIR</td>
                                                             <td>131223080301</td>
                                                             <td class="text-center">
-                                                                <a href="/studentinfo.php?id=219"
+                                                                <a href="./studentinfo.php.php?id=219"
                                                                     class="btn btn-warning mx-2"><i
                                                                         class="fas fa-edit"></i></a>
                                                                 <a href="#" class="btn btn-danger mx-2"><i
@@ -232,7 +232,7 @@
                                                             <td>3 IBNU KATHIR</td>
                                                             <td>130627030197</td>
                                                             <td class="text-center">
-                                                                <a href="/studentinfo.php?id=220"
+                                                                <a href="./studentinfo.php.php?id=220"
                                                                     class="btn btn-warning mx-2"><i
                                                                         class="fas fa-edit"></i></a>
                                                                 <a href="#" class="btn btn-danger mx-2"><i
@@ -245,7 +245,7 @@
                                                             <td>3 IBNU KATHIR</td>
                                                             <td>130628080997</td>
                                                             <td class="text-center">
-                                                                <a href="/studentinfo.php?id=221"
+                                                                <a href="./studentinfo.php.php?id=221"
                                                                     class="btn btn-warning mx-2"><i
                                                                         class="fas fa-edit"></i></a>
                                                                 <a href="#" class="btn btn-danger mx-2"><i
@@ -258,7 +258,7 @@
                                                             <td>3 IBNU KATHIR</td>
                                                             <td>130927080567</td>
                                                             <td class="text-center">
-                                                                <a href="/studentinfo.php?id=222"
+                                                                <a href="./studentinfo.php.php?id=222"
                                                                     class="btn btn-warning mx-2"><i
                                                                         class="fas fa-edit"></i></a>
                                                                 <a href="#" class="btn btn-danger mx-2"><i
@@ -271,7 +271,7 @@
                                                             <td>3 IBNU KATHIR</td>
                                                             <td>131023110051</td>
                                                             <td class="text-center">
-                                                                <a href="/studentinfo.php?id=223"
+                                                                <a href="./studentinfo.php.php?id=223"
                                                                     class="btn btn-warning mx-2"><i
                                                                         class="fas fa-edit"></i></a>
                                                                 <a href="#" class="btn btn-danger mx-2"><i
