@@ -9,26 +9,26 @@ include("classes/class.php");
 
 $error = "";
 
-if (isset($_SESSION['userid']) && is_numeric($_SESSION['userid'])) {
-  $id = $_SESSION['userid'];
-  $login = new Login();
-  $result = $login->checkLogin($id, "");
+// if (isset($_SESSION['userid']) && is_numeric($_SESSION['userid'])) {
+//   $id = $_SESSION['userid'];
+//   $login = new Login();
+//   $result = $login->checkLogin($id, "");
 
-  if ($result) {
-    $user = new User();
-    $user_data = $user->get_data($id);
-    if (!$user_data) {
-      header("Location: login.php");
-      die;
-    } else {
-    }
-  } else {
-    header("Location: login.php");
-    die;
-  }
-} else {
-  header("Location: login.php");
-}
+//   if ($result) {
+//     $user = new User();
+//     $user_data = $user->get_data($id);
+//     if (!$user_data) {
+//       header("Location: login.php");
+//       die;
+//     } else {
+//     }
+//   } else {
+//     header("Location: login.php");
+//     die;
+//   }
+// } else {
+//   header("Location: login.php");
+// }
 
 $check = false;
 

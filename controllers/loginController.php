@@ -22,7 +22,7 @@ class LoginController {
                 // print_r($result);
                 session_start();
                 $_SESSION['userID'] = $row['id'];
-                $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+                $_SESSION['csrfToken'] = bin2hex(random_bytes(32));
                 return true;
             } else {
                 // echo("password not match");

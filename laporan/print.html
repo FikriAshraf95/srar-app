@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.2.61/jspdf.debug.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<div id="content">
+     <h3>Hello, this is a H3 tag</h3>
+
+    <p>A paragraph</p>
+</div>
+<div id="editor"></div>
+<button onclick="javascript:createPdf()" id="cmd">generate PDF</button>
+<script>
+
+function createPdf() {
+
+var doc = new jsPDF();
+
+source = $('#content')[0];
+
+specialElementHandlers = {
+      '#editor': function (element, renderer) {
+          return true
+      }
+  };
+
+doc.fromHTML(
+  source,
+  15,
+  15, 
+  {
+    'width': 170,
+    'elementHandlers': specialElementHandlers
+  }
+);
+doc.save('sample-file.pdf')
+}
+
+</script>
+
+</html>
